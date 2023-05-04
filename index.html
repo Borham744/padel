@@ -1,0 +1,144 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>My Padel Page</title>
+	<link rel="stylesheet" href="style.css">
+
+</head>
+<body>
+	<header>
+		<h1>Welcome to My Padel Page</h1>
+        <section id="search">
+            <form action="/search" method="get" onsubmit="search(); return false;">
+                <label for="search-box">Search:</label>
+                <input type="text" id="search-box" name="q">
+                <button type="submit">Search</button>
+            </form>
+              
+          </section>
+        <nav>
+			<ul>
+				<li><a href="#home">Home</a></li>
+				<li><a href="#about-padel">About Padel</a></li>
+				<li><a href="#rules">Rules</a></li>
+				<li><a href="#clubs">Clubs</a></li>
+				<li><a href="#players">Players</a></li>
+				<li><a href="#Clubs">Club</a></li>
+				<li><a href="#contact-us">Contact Us</a></li>
+
+			</ul>
+		</nav>
+	</header>
+	
+	<main>
+        <section id="home">
+			<h2>Welcome to My Padel Page</h2>
+			<p>This is a website dedicated to the sport of Padel. Here you can learn more about the game, the rules, and find Padel clubs and facilities in your area.</p>
+		</section>
+		<hr>
+		<section id="about-padel">
+			<h2>What is Padel?</h2>
+			<p>Padel is a racquet sport that combines elements of tennis, squash, and badminton. It is played in doubles on a smaller court surrounded by walls. The rules are similar to tennis, but the walls can be used as part of the game, adding a new dimension of strategy and skill.</p>
+            <a href="https://www.head.com/en_GR/sports/padel/about" target="_blank" class="button">Learn More</a>
+		</section>
+		<hr>
+		<section id="rules">
+			<h2>Padel Rules</h2>
+			<p>Padel has many rules that are similar to tennis. The main differences are that the ball can be played off the walls, the serve must be made underhand, and there are specific rules for where players must stand during the serve and return.</p>
+			<a href="https://allforpadel.com/en/blog/padel-rules-quick-overview-of-official-padel-regulations-n231" target="_blank" class="button">Learn More</a>
+
+            
+		</section>
+		<hr>
+		<section id="clubs">
+			<h2>Padel Clubs and Facilities</h2>
+			<p>There are many Padel clubs and facilities around the world where you can play the game. Some clubs offer membership programs, while others allow for drop-in play. Check out our list of recommended clubs and facilities to find one near you.</p>
+
+		</section>
+		
+		
+		<hr>
+		
+		<section id = "players">
+            <h2>Top Padel Players</h2>
+            <div class="player">
+              <img src="images\Alejandro Galan.png" alt="Alejandro Galán">
+              <h3>Alejandro Galán</h3>
+              <p>Spain</p>
+              <a href="https://www.padelfip.com/player/Alejandro-Galan/" target="_blank">More Info</a>
+            </div>
+          <hr>
+            <div class="player">
+              <img src="/images/Pablo Lima.png" alt="Pablo Lima">
+              <h3>Pablo Lima</h3>
+              <p>Brazil</p>
+              <a href="https://www.worldpadeltour.com/jugadores/pablo-lima/" target="_blank">More Info</a>
+            </div>
+          <hr>
+            <div class="player">
+              <img src="/images/Juan Lebron.png" alt="Sanyo Gutiérrez">
+              <h3>Juan Lebron</h3>
+              <p>Spain</p>
+              <a href="https://www.padelfip.com/player/juan-lebron/" target="_blank">More Info</a>
+            </div>
+        </section>
+          
+        <hr>
+		
+        <section id="Clubs">
+            <h2>Padel Clubs</h2>
+            
+                <div class="club">
+                    <h3>Padel Tennis Club Assago</h3>
+                    <img src="images/Padel Tennis Club Assago.jpg" alt="Club 1 Photo">
+                    <p>Address: Adiacente Nh Hotel, Strada 2, 7, 20090 Assago MI, Italy</p>
+                    <p>Phone: +39 351 805 9059</p>
+                    <p>Website: <a href="https://www.transfermarkt.com/assago/startseite/verein/75688" target="_blank">www.Assago.com</a></p>
+                </div>
+                <hr>
+                <br>
+                <div class="club">
+
+                    <h3>WinWin Padel Club de l'Arbois</h3>
+                    <img src="images/WinWin Padel Club de l'Arbois.jpg" alt="Club 2 Photo">
+                    <p>Address: Rte de Calas, 13480 Cabriès, France</p>
+                    <p>Phone: +33 4 69 96 80 60</p>
+                    <p>website  <a href="https://winwin-padel.com/" target="_blank">www.l'Arbois.com</a> </p>
+                    
+                </div>
+                <hr>
+                <div class="club">
+                    <h3>Les Pyramides, the refined club</h3>
+                    <img src="images/Les Pyramides.jpg" alt="Club 3 Photo">
+                    <p>Address: 16 Av. de Saint-Germain, 78560 Le Port-Marly, France</p>
+                    <p>Phone: +33134803480</p>
+                    <p>Website: <a href="https://www.instagram.com/lespyramidesclub/?hl=en" target="_blank">www.Les Pyramides.com</a></p>
+                    
+                    <div class="club">
+        </section>
+        <hr>
+        <section id="contact-us">
+			<h2>Contact Us</h2>
+			<p>If you have any questions or comments about this website or the sport of Padel, please feel free to contact us using the form below. We will get back to you as soon as possible.</p>
+			<form>
+				<label for="name">Name:</label>
+				<input type="text" id="name" name="name"><br><br>
+				<label for="email">Email:</label>
+				<input type="email" id="email" name="email"><br><br>
+				<label for="message">Message:</label>
+				<textarea id="message" name="message"></textarea><br><br>
+				<input type="submit" value="Submit">
+			</form>
+		</section>
+	</main>
+	
+	<footer>
+		<p>&copy; 2023 My Padel Page</p>
+	</footer>
+
+	<script src="script.js"></script>
+</body>
+</html>
+    

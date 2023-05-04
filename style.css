@@ -1,0 +1,282 @@
+
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+
+header {
+    background-color: #3f3f3f;
+    color: #fff;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1rem;
+}
+.search-box {
+    display: flex;
+    align-items: center;
+    border: 2px solid #ccc;
+    border-radius: 5px;
+    padding: 5px;
+    width: 300px;
+  }
+  
+  .search-box input[type="text"] {
+    flex-grow: 1;
+    border: none;
+    margin-left: 5px;
+  }
+  
+  .search-box button {
+    background-color: transparent;
+    border: none;
+    color: white;
+    padding: 10px 15px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
+  .search-box button:hover {
+    background-color: transparent;
+  }
+  
+
+h1 {
+    margin: 0;
+    font-size: 2rem;
+}
+
+nav ul {
+    margin: 0;
+    padding: 0;
+    display: flex;
+    flex-direction: row;
+}
+
+nav ul li {
+    list-style: none;
+    margin-right: 1rem;
+}
+
+nav ul li a {
+    color: #fff;
+    text-decoration: none;
+}
+
+nav ul li a:hover {
+    text-decoration: underline;
+}
+
+
+main {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 2rem;
+}
+
+section {
+    margin-bottom: 2rem;
+}
+
+h2 {
+    font-size: 1.5rem;
+    margin-top: 0;
+}
+
+p {
+    line-height: 1.5;
+}
+
+
+
+.button {
+    padding: 0.5rem 1rem;
+    background-color: #3f3f3f;
+    color: #fff;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    text-decoration: none;
+}
+
+button:hover {
+    background-color: #000;
+}
+
+
+.player img {
+    max-width: 100%;
+    height: auto;
+}
+
+
+.player {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-bottom: 2rem;
+}
+
+.player h3 {
+    margin-top: 1rem;
+}
+
+.player p {
+    margin: 0;
+    font-style: italic;
+}
+
+.player a {
+    color: #3f3f3f;
+    font-weight: bold;
+    text-decoration: none;
+    margin-top: 0.5rem;
+}
+
+.player a:hover {
+    text-decoration: underline;
+}
+
+
+ul {
+    list-style: none;
+    padding: 0;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+ul li {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+}
+
+ul li h3 {
+    margin-top: 1rem;
+}
+
+ul li img {
+    margin-top: 1rem;
+}
+
+ul li p {
+    margin: 0.5rem 0;
+}
+
+ul li button {
+    margin-top: 1rem;
+}
+
+/* Clubs section */
+.clubs {
+background-color: #f7f7f7;
+padding: 80px 0;
+}
+.clubs h2 {
+/* text-align: center;
+font-size: 36px;
+margin-bottom: 60px; */
+margin-top: 1rem;
+}
+.club {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-bottom: 2rem;
+    /* display: flex;
+align-items: center;
+justify-content: space-between;
+padding: 40px 80px;
+border-bottom: 1px solid #e1e1e1; */
+}
+.club img {
+/* width: 40%;
+    height: auto; */
+    max-width: 100%;
+    height: auto;
+}
+.club h3 {
+    margin-top: 1rem;
+
+    /* font-size: 24px;
+margin-bottom: 20px; */
+}
+.club p {
+    margin: 0;
+    font-style: italic;
+    /* font-size: 18px;
+line-height: 1.5; */
+}
+.club a{
+    color: #3f3f3f;
+    font-weight: bold;
+    text-decoration: none;
+    margin-top: 0.5rem;
+}
+
+#contact-us {
+    background-color: #fff;
+    padding: 80px 0;
+}
+#contact-us h2 {
+    text-align: center;
+    font-size: 36px;
+    margin-bottom: 60px;
+}
+#contact-us form {
+    max-width: 600px;
+    margin: 0 auto;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+}
+#contact-us input[type="text"],
+#contact-us input[type="email"],
+#contact-us textarea {
+    padding: 15px;
+    margin: 15px;
+    border-radius: 5px;
+    border: 1px solid #e1e1e1;
+    width: 100%;
+    font-size: 18px;
+box-sizing: border-box;
+}
+#contact-us textarea {
+    height: 150px;
+    resize: none;
+}
+#contact-us input[type="submit"] {
+    padding: 15px;
+    margin: 15px;
+    border-radius: 5px;
+    border: none;
+    background-color: #009688;
+    color: #fff;
+    font-size: 18px;
+    cursor: pointer;
+}
+
+footer {
+    background-color: #333;
+    color: #fff;
+    padding: 40px 0;
+    text-align: center;
+}
+footer p {
+    margin: 0;
+}
+footer a {
+    color: #fff;
+    text-decoration: none;
+}
+  
